@@ -1,0 +1,35 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Build artifacts
+bin/
+build/
+
+# Dependency directories (Go modules)
+vendor/
+
+# IDE settings (VSCode)
+.vscode/
+.idea/
+
+# Go specific
+*.out
+*.log
+
+# Environment variables and secrets
+.env
+
+# Swagger generated files
+swagger/docs/
+
+# Logs and coverage
+*.log
+*.coverprofile
+
+# Database
+*.db
